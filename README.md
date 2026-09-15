@@ -23,7 +23,7 @@ The app is a single dashboard for a mock NSE book (RELIANCE, TCS, HDFCBANK, INFY
 
 Save a capture of the running dashboard as `docs/screenshots/firstock.png` (phone or tablet).
 
-![Mindorigin Portfolio dashboard](docs/screenshots/dashboard.png)
+![Mindorigin Portfolio dashboard](docs/screenshots/firstock.png)
 
 Phone stacks header → tape → cards → filters → chart → holdings. Tablet (≥ 840 logical px) splits summary/chart on the left and the holdings table on the right.
 
