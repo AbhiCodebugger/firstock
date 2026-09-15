@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613319176503",
+    "project_id": "mindorigin-portfolio-app",
+    "storage_bucket": "mindorigin-portfolio-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613319176503:android:e3a9fa01a5a8e82264aab2",
+        "android_client_info": {
+          "package_name": "com.example.mindorigin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTL-ud4_w3HqBcrE8-Hob5OMNXGOjXy0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

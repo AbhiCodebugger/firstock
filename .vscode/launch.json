@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "dev",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_dev.dart"
+    },
+    {
+      "name": "beta",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_qa.dart"
+    },
+    {
+      "name": "prod",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=FINNHUB_TOKEN=${env:FINNHUB_TOKEN}"
+      ]
+    },
+    {
+      "name": "dev (profile)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_dev.dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "beta (profile)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_qa.dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "prod (profile)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart",
+      "flutterMode": "profile",
+      "toolArgs": [
+        "--dart-define=FINNHUB_TOKEN=${env:FINNHUB_TOKEN}"
+      ]
+    }
+  ]
+}
