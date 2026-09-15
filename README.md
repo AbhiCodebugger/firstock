@@ -21,11 +21,8 @@ The app is a single dashboard for a mock NSE book (RELIANCE, TCS, HDFCBANK, INFY
 
 ## Screenshot
 
-Save a capture of the running dashboard as `docs/screenshots/firstock.png` (phone or tablet).
-
 ![Mindorigin Portfolio dashboard](docs/screenshots/firstock.png)
 
-Phone stacks header → tape → cards → filters → chart → holdings. Tablet (≥ 840 logical px) splits summary/chart on the left and the holdings table on the right.
 
 ## Libraries used
 
@@ -161,13 +158,6 @@ flutter doctor
 ```
 
 ### Installation
-
-```mermaid
-flowchart TD
-  A[Clone repo] --> B[flutter pub get]
-  B --> C[Pick flavor]
-  C --> D[flutter run -t lib/main_*.dart]
-```
 
 1. Clone and fetch packages:
 
